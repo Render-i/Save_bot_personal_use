@@ -7,10 +7,10 @@ import time
 import os
 import threading
 
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
-ss = os.environ.get("STRING", "")
+bot_token = os.environ.get("TOKEN", "7412724855:AAFVGa-r4opIxTrbeQeGiw90hzKzUus6ybg") 
+api_hash = os.environ.get("HASH", "74bfe203b6771d8d8c39fa2bf0c51dce") 
+api_id = os.environ.get("ID", "27015735")
+ss = os.environ.get("STRING", "AQGqa00AlmcJMsaVWhj8CJa15wVN2ckFgfrcAnP0dE6AY8txPPELoZOs4kKlrSP3scr31XrqYbjkOc5tOR94O6d8CiXMmLxXWVyZcK0Q1bGFvqlx7JnFdt6LNwx0HQ6H0FhkdiNFJygp0jDe37ZCFQ7YVnK7oeVjgnn0EYGwaadOyC-PzTLX4-08Y9PPG_YA-07Ltg-NJgLdKYWY0F34yzGJ39iA9_9T7Zgr4R_PLKyY9cvaL_VC3onLDFNz-937SYUpyNmBCqEPnXGbn_mzRrqfx5GYwHRy6qFqNHVgxHFZK94FddIngvBMOyK-7yNDBamBCIuMg9xYVd-9P9YVVDA1xvKOnAAAAAG9TCbnAA")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
